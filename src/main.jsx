@@ -10,13 +10,20 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     
   <BrowserRouter>
-    <Header />
+    <div className='wrapper'>
 
+      <Header />
+        
+      <main>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </main>
 
-    <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="*" element={<NotFound />} />
-    </Routes>
+      <footer />
+
+    </div>
   </BrowserRouter>
 
   </StrictMode>,
