@@ -8,12 +8,22 @@ import NotFound from './pages/NotFound'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     
-  <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="*" element={<NotFound />} />
-    </Routes>
-  </BrowserRouter>
+    <BrowserRouter>
+      <div className='wrapper'>
+
+        <header />
+        
+        <main>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </main>
+
+        <footer />
+
+      </div>
+    </BrowserRouter>
 
   </StrictMode>,
 )
