@@ -11,7 +11,7 @@ createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <div className='wrapper'>
 
-        <header />
+        <Header />
         
         <main>
           <Routes>
