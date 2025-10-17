@@ -1,0 +1,77 @@
+.hero-bg {
+    display: block;
+    width: 100%;
+    background-color: var(--secondary-color);
+    justify-self: center;
+    justify-content: center;
+}
+
+.hero-wrapper {
+    display: flex;
+    margin: auto;
+    width: auto;
+   padding-top: 200px;
+   justify-self: center;
+    justify-content: center;
+}
+
+.hero-text-wrapper {
+    display: block;
+    margin: auto;
+    margin-left: 12%;
+    margin-right: 25%;
+    font-family: "Manrope", sans-serif;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 180px;
+}
+
+.hero-text-info {
+    margin: auto;
+    display: flex;
+    font-weight: bold;
+    font-size: 25px;
+    color: var(--icon-color);
+}
+
+.hero-text-title {
+    margin: auto;
+    display: flex;
+    font-weight: bold;
+    font-size: 80px;
+    color: var(--primary-color);
+}
+
+.hero-text-box {
+    margin: auto;
+    gap:0px;
+    display: block;
+    
+
+}
+
+.hero-text-feed {
+    display: flex;
+    
+    color: var(--primary-color);
+}
+
+.hero-button-box {
+    display: flex;
+    margin: auto;
+    width: auto;
+    
+}
+
+.hero-img-wrapper {
+    display: flex;
+    position: relative;
+    right: 15%;
+    width: auto;
+}
+
+Button {
+&:hover {
+    background-color: var(--primary-color);
+}
+}
