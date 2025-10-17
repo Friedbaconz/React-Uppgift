@@ -21,16 +21,16 @@ const Header = () => {
                             </div>
                             <div class="navbar-links">
                                 <div class="navbar-icons">
-                                    
+                                    <img src="./public/Facebook.svg" alt="" class="navbar-img-icon" />
                                 </div>
                                 <div class="navbar-icons">
-                                    
+                                    <img src="./public/X.svg" alt="" class="navbar-img-icon" />
                                 </div>
                                 <div class="navbar-icons">
-                                    
+                                    <img src="./public/Instagram.svg" alt="" class="navbar-img-icon" />
                                 </div>
                                 <div class="navbar-icons">
-                                    
+                                    <img src="./public/Youtube.svg" alt="" class="navbar-img-icon" />
                                 </div>
                             </div>
                         </div>

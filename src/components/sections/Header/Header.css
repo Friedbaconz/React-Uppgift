@@ -79,6 +79,9 @@
     &:hover{
         background-color: var(--primary-color);
     }
+    .navbar-img-icon {
+        margin: auto;
+    }
 }
 
 #icon-img {
