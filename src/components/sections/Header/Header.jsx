@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.css'
+import Button from '../../elements/Button'
 
 const Header = () => {
     return (
@@ -42,9 +43,7 @@ const Header = () => {
                                     <p class="navbar-text">Services</p>
                                     <p class="navbar-text">Contact Us</p>
                                 </div>
-                                <div class="book-now">
-                                    Book Now
-                                </div>
+                                <Button id="button-now" text="Book Now"/>
                         </div>
                     </div>
                 </div>
