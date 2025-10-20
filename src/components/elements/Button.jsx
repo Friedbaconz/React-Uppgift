@@ -1,10 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Button.css'
 
-function Button({id, text}) {
+
+function Button({ id, text, dark}) {
+  const [ShowDarkStatus, setShowDarkStatus] = useState(false)
+  const [Dark, setDark] = useState(false)
+  Dark = () => {
+    setShowDarkStatus(value =>!value)
+  }
+  
   return (
-    <div className="button">
-        <label htmlFor={id} className="button-text">{text}</label>
+    <div className="container">
+      <div className={`button ${ShowDarkStatus ? 'active' : ''}`}>
+        <label htmlFor={id} className="button-text" mode={dark}>{text}</label>
+      </div>
+    
     </div>
   )
 }

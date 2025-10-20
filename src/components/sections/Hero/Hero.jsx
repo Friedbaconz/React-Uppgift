@@ -19,7 +19,7 @@ function Hero() {
                         </div>
                         
                         <div class="hero-button-box">
-                            <Button id="discover-more" text="Discover More" />
+                            <Button id="discover-more" text="Discover More" dark="true"/>
                         </div>
                     </div>
                     <div class="hero-img-wrapper">
