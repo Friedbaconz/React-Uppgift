@@ -1,6 +1,7 @@
 import React from 'react'
 import './Hero.css'
 import Button from '../../elements/Button/Button'
+import DarkButton from '../../elements/Button/Darkbutton/DarkButton'
 
 function Hero() {
     return (
@@ -19,7 +20,7 @@ function Hero() {
                         </div>
                         
                         <div class="hero-button-box">
-                            <Button id="dark-button" text="Discover More"/>
+                            <DarkButton id="discover-more" text="Discover More"/>
                         </div>
                     </div>
                     <div class="hero-img-wrapper">

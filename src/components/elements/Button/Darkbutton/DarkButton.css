@@ -1,10 +1,10 @@
-.button-wrapper {
+.darkbutton-wrapper {
     display: flex;
     width: auto;
     margin: auto;
 }
 
-.button {
+.darkbutton {
         
     display: block;
     background-color: var(--icon-color);
@@ -21,7 +21,7 @@
     }
 }
 
-.button-text {
+.darkbutton-text {
     padding: 15px 20px;
     display: flex;
     margin: auto;
