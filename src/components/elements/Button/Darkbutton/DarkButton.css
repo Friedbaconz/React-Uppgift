@@ -14,7 +14,7 @@
     cursor: pointer;
     width: auto;
     align-content: center;
-    
+    color: var(--secondary-color);
     &:hover {
         color: var(--secondary-color);
         background-color: var(--primary-color);
@@ -26,4 +26,5 @@
     display: flex;
     margin: auto;
     cursor: pointer;
+    font-weight: bold;
 }

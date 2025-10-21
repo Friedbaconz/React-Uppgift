@@ -14,7 +14,7 @@
     cursor: pointer;
     width: auto;
     align-content: center;
-    
+    color: var(--secondary-color);
     &:hover {
         color: var(--primary-color);
         background-color: var(--secondary-color);
@@ -22,7 +22,8 @@
 }
 
 .button-text {
-    padding: 15px 20px;
+    padding: 15px 40px;
+    font-weight: bold;
     display: flex;
     margin: auto;
     cursor: pointer;
