@@ -1,7 +1,7 @@
 import React from 'react'
-import './Button.css'
+import './DarkButton.css'
 
-function Button({id, text}) {
+function DarkButton({id, text}) {
   return (
     <div className="button-wrapper">
       <div className='button'>
@@ -11,4 +11,4 @@ function Button({id, text}) {
   )
 }
 
-export default Button
+export default DarkButton

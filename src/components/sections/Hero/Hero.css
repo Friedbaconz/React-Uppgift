@@ -58,8 +58,7 @@
 }
 
 .hero-button-box {
-    display: flex;
-    margin: auto;
+    display: block;
     width: auto;
     
 }
@@ -69,10 +68,4 @@
     position: relative;
     right: 15%;
     width: auto;
-}
-
-Button {
-&:hover {
-    background-color: var(--primary-color);
-}
 }

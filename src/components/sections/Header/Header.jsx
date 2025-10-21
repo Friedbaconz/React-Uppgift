@@ -43,7 +43,9 @@ const Header = () => {
                                     <p class="navbar-text">Services</p>
                                     <p class="navbar-text">Contact Us</p>
                                 </div>
-                                <Button id="button-now" text="Book Now"/>
+                                <div class="navbar-button-box">
+                                  <Button id="button-now" text="Book Now"/>  
+                                </div>
                         </div>
                     </div>
                 </div>
