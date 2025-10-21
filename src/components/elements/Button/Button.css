@@ -21,3 +21,10 @@
     margin: auto;
     cursor: pointer;
 }
+
+.active {
+    &:hover {
+        color: var(--secondary-color);
+        background-color: var(--primary-color);
+    }
+}
