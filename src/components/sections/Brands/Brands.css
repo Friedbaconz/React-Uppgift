@@ -1,0 +1,21 @@
+.brands-bg {
+    display: block;
+    width: 100%;
+    background-color: #FAF8EC;
+}
+
+.brands-wrapper {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap:100px;
+    margin: auto;
+    width: 70%;
+}
+
+.brands-logo {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 35px 0px;
+}
