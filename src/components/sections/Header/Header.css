@@ -102,7 +102,7 @@
     padding: 10px 50px;
     .Menu-selection {
         display: flex;
-        color: black;
+        color: var(--secondary-color);
         gap:50px;
         margin: auto;
         text-align: center;
