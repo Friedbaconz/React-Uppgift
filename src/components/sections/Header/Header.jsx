@@ -36,7 +36,7 @@ const Header = () => {
                             </div>
                         </div>
                         <div class="navbar-downer">
-                                <img src="./public/Logo.svg" alt="" class="navbar-image"/>
+                                <img src="./Logo.svg" alt="" class="navbar-image"/>
                                 <div class="Menu-selection">
                                     <p class="navbar-text">Home</p>
                                     <p class="navbar-text">About Us</p>
