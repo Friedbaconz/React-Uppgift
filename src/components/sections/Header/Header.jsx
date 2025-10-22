@@ -22,16 +22,16 @@ const Header = () => {
                             </div>
                             <div class="navbar-links">
                                 <div class="navbar-icons">
-                                    <img src="./public/Facebook.svg" alt="" class="navbar-img-icon" />
+                                    <img src="./Facebook.svg" alt="" class="navbar-img-icon" />
                                 </div>
                                 <div class="navbar-icons">
-                                    <img src="./public/X.svg" alt="" class="navbar-img-icon" />
+                                    <img src="./X.svg" alt="" class="navbar-img-icon" />
                                 </div>
                                 <div class="navbar-icons">
-                                    <img src="./public/Instagram.svg" alt="" class="navbar-img-icon" />
+                                    <img src="./Instagram.svg" alt="" class="navbar-img-icon" />
                                 </div>
                                 <div class="navbar-icons">
-                                    <img src="./public/Youtube.svg" alt="" class="navbar-img-icon" />
+                                    <img src="./Youtube.svg" alt="" class="navbar-img-icon" />
                                 </div>
                             </div>
                         </div>
