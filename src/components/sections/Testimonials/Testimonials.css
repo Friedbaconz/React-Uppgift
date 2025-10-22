@@ -1,0 +1,143 @@
+.testimon-bg {
+    display: block;
+    width: 100%;
+    margin: auto;
+    background-image: url('/public/TestimonialsBG.svg');
+}
+
+.testimon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    background-color: #12372ad5;
+}
+
+.testimon-content {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0px 80px 0px;
+}
+
+.testimon-text-wrapper {
+    display: block;
+    margin: auto;
+}
+
+.Testimon-box {
+    display: flex;
+    font-family: var(--font-text);
+    margin-bottom: 15px;
+}
+
+.testimon-header {
+    margin: auto;
+    color: var(--icon-color);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.testimon-title {
+    margin: auto;
+    color: var(--primary-color);
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.testimon-text-content {
+    margin: auto;
+    text-align: center;
+    width: 55%;
+    font-size: 16px;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.testimon-comment-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 68%;
+    margin: auto;
+    gap: 25px;
+}
+
+
+
+
+
+
+.testimon-comment {
+    margin: auto;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    padding: 30px;
+    font-family: var(--font-text);
+}
+
+.testimon-comment-profile-wrapper {
+    display: flex;
+}
+
+.testimon-profile-img {
+    background-color: lightgray;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+
+.testimon-profile-img-source {
+    margin: auto;
+}
+
+.testimon-comment-text-wrapper {
+    display: flex;
+    margin: auto;
+    padding: 30px 0px;
+}
+
+.testimon-rating {
+    display: flex;
+    gap:5px;
+    color: var(--secondary-color);
+}
+
+.testimon-comment-text-wrapper: {
+    color: var(--secondary-color);
+}
+
+.testimon-profile-text {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.testimon-profile-text-box {
+    margin: auto;
+    margin-left: 15px;
+    color: var(--secondary-color);
+}
+
+.testimon-profile-name {
+    margin: auto;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.testimon-profile-work {
+    margin: auto;
+    font-size: 14px;
+}
+
+.testimon-tag-wrapper {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: auto;
+}
+
+.testimon-tag {
+    position: absolute;
+    margin: auto;
+}
