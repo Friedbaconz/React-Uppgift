@@ -6,16 +6,28 @@
 
 .brands-wrapper {
     display: flex;
-    justify-content: center;
+    justify-content:center;
     justify-items: center;
     gap:100px;
     margin: auto;
     width: 70%;
+    padding: 45px 0px;
 }
 
 .brands-logo {
     display: flex;
-    width: 80%;
+    position: relative;
     margin: auto;
-    padding: 35px 0px;
+    width: 100%;
+    padding: 10px;
+    
+    &:hover {
+        bottom:10px;
+        background-color: var(--icon-color);
+        border-radius: 10px;
+    }
+}
+
+.brands-logo-link {
+    margin: auto;
 }
