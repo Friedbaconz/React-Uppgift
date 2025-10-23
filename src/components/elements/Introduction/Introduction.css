@@ -1,6 +1,7 @@
 .indroduction-wrapper {
     display: flex;
     justify-content: center;
+    align-items: start;
 }
 
 .introduction-header-wrapper {
@@ -23,13 +24,12 @@
 
 .introduction-info-wrapper {
     display: flex;
-    justify-content: center;
+    align-items: start;
 }
 
 
 
 .introduction-info-title-wrapper {
-    display: flex;
     font-family: var(--font-text);
     width: 100%;
 }
@@ -49,9 +49,8 @@
 }
 
 .introduction-info-text {
-    display: flex;
     margin: auto;
-    width: 90%;
+    width: 60%;
     font-size: 16px;
     color: var(--secondary-color);
 }
