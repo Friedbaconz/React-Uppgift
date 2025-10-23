@@ -17,7 +17,7 @@ function WhyChooseUs() {
 
                                 <div className="whyus-listitem">
                                     <div className="whyus-listicon">
-                                        <img src="" alt="" className="whyus-listimg" />
+                                        <img src="./Lock.svg" alt="" className="whyus-listimg" />
                                     </div>
                                     <div className="whyus-listtext-wrapper">
                                         <p className="whyus-listtitle">Security and Safety</p>
@@ -27,7 +27,7 @@ function WhyChooseUs() {
 
                                 <div className="whyus-listitem">
                                     <div className="whyus-listicon">
-                                        <img src="" alt="" className="whyus-listimg" />
+                                        <img src="./Money.svg" alt="" className="whyus-listimg" />
                                     </div>
                                     <div className="whyus-listtext-wrapper">
                                         <p className="whyus-listtitle">Flexible and Affordable</p>
@@ -37,7 +37,7 @@ function WhyChooseUs() {
 
                                 <div className="whyus-listitem">
                                     <div className="whyus-listicon">
-                                        <img src="" alt="" className="whyus-listimg" />
+                                        <img src="./Clean.svg" alt="" className="whyus-listimg" />
                                     </div>
                                     <div className="whyus-listtext-wrapper">
                                         <p className="whyus-listtitle">Clean and Well-Maintained Facilities</p>
@@ -47,7 +47,7 @@ function WhyChooseUs() {
 
                                 <div className="whyus-listitem">
                                     <div className="whyus-listicon">
-                                        <img src="" alt="" className="whyus-listimg" />
+                                        <img src="./Clock.svg" alt="" className="whyus-listimg" />
                                     </div>
                                     <div className="whyus-listtext-wrapper">
                                         <p className="whyus-listtitle">24/7 and Convinient Access</p>
