@@ -20,3 +20,8 @@
     margin-bottom: 10px;
 }
 
+.prcing-sub-wrapper {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}

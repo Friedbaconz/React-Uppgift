@@ -1,0 +1,146 @@
+.PricingUnit-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PricingUnit-wrapper {
+    display: block;
+    margin: auto;
+    background-color: #FAF8EC;
+    font-family: var(--font-text);
+    padding: 35px;
+    max-width: 321px;
+    border-radius: 10px;
+    border: 3px solid lightgrey;
+}
+
+.unitname {
+    font-size: 24px;
+    color: var(--secondary-color);
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+}
+
+.PricingUnit-wrapper:hover {
+    background-color: var(--secondary-color);
+    cursor: pointer;
+    .unitname {
+        color: var(--primary-color);
+    }
+    
+    .unit-month {
+        color: var(--primary-color);
+    }
+
+    #unit-icon {
+        color: var(--icon-color);
+    }
+
+    .unit-text {
+        color: var(--primary-color)
+    }
+
+    .unit-splitter {
+        background-color: var(--primary-color);
+    }
+
+    .unit-plan {
+        color: var(--primary-color);
+    }
+}
+
+
+
+
+
+.unit-price{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.unit-img {
+    margin: auto;
+    bottom:10px;
+    position: relative;
+    color: var(--icon-color);
+}
+
+.unit-month-wrapper {
+    display: flex;
+    height: 100%;
+}
+
+.unit-month {
+    position: relative;
+    top:12px;
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+
+.unit-number {
+    margin: auto;
+    padding: 0px 20px;
+    font-size: 52px;
+    font-weight: bold;
+    color: var(--icon-color);
+}
+
+.unit-splitter {
+    width: 100%;
+    background-color: var(--secondary-color);
+    padding: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.unit-text-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.unit-text {
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+.unit-button {
+    display: flex;
+    margin: auto;
+}
+
+.unit-list-wrapper {
+    display: block;
+    margin: auto;
+    gap:10px;
+}
+
+.unit-list {
+    display: flex;
+    margin: auto;
+    justify-self: start;
+    margin-bottom: 15px;
+}
+
+#unit-icon {
+    margin: auto 0px;
+    margin-right: 10px;
+    color: var(--secondary-color);
+}
+
+.unit-plan {
+    text-align: start;
+    margin: auto 0px;
+    color: var(--secondary-color);
+}
+
+.unit-button-box {
+    display: block;
+    margin: auto;
+}
