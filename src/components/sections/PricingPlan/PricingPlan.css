@@ -1,0 +1,22 @@
+.pricing-bg {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-wrapper {
+    display: flex;
+    width: 75%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.pricing-content {
+    display: block;
+}
+
+.pricing-introduction {
+    margin-bottom: 10px;
+}
+
