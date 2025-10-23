@@ -1,0 +1,15 @@
+.whyus-bg {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.whyus-wrapper {
+    display: flex;
+    width: 75%;
+}
+
+.whyus-content {
+    display: block;
+}
