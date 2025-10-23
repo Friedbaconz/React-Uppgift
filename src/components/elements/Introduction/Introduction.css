@@ -1,0 +1,64 @@
+.indroduction-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.introduction-header-wrapper {
+    font-family: var(--font-text);
+}
+
+.introduction-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--icon-color);
+    margin: auto;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+
+
+.introduction-info {
+    display: block;
+}
+
+.introduction-info-wrapper {
+    display: flex;
+    align-items: start;
+}
+
+
+
+.introduction-info-title-wrapper {
+    display: flex;
+    justify-content: start;
+    font-family: var(--font-text);
+}
+
+.introduction-info-title {
+    text-align: start;
+    font-size: 52px;
+    font-weight: bold;
+    color: var(--secondary-color);
+    margin: auto;
+}
+
+
+
+.introduction-info-text-wrapper {
+    display: flex;
+    position: relative;
+    justify-content: start;
+    font-family: var(--font-text);
+    height: 100%;
+    width: 90%;
+}
+
+.introduction-info-text {
+    margin: auto;
+    text-align: start;
+    font-size: 16px;
+    color: var(--secondary-color);
+    width: 80%;
+}

@@ -1,6 +1,7 @@
 import React from 'react'
 import './OurService.css'
 import Texttile from '../../elements/Texttile/Texttile'
+import Introduction from '../../elements/Introduction/Introduction'
 
 function OurService() {
   return (
@@ -8,18 +9,8 @@ function OurService() {
         <div className="ourservice-bg">
             <div className="ourservice-wrapper">
                 <div className="ourservice-content">
-                    <p className="ourservice-title">Our Service</p>
                     <div className="ourservice-info">
-                        <div className="ourservice-info-title-wrapper">
-                            <p className="ourservice-info-title">Specialized Storage for Every Special Item</p>
-                        </div>
-                        <div className="ourservice-info-text-wrapper">
-                           <p className="ourservice-info-text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            Quisque molestie nisl sed dui lacinia gravida. Nulla quis nulla leo. 
-                            Mauris ac blandit nisi non sodales augue. Phasellus eget elit gravida.
-                            </p> 
-                        </div>
+                        <Introduction header="Our Services" title="Specialized Storage for Every Special Item" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie nisl sed dui lacinia gravida. Nulla quis nulla leo. Mauris ac blandit nisi non sodales augue. Phasellus eget elit gravida."/>
                     </div>
                     <div className="ourservice-tiles">
                         <div className="ourservice-texttilewrapper">

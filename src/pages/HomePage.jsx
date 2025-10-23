@@ -3,7 +3,6 @@ import Hero from '../components/sections/Hero/Hero'
 import AboutUs from '../components/sections/AboutUs/AboutUs'
 import Brands from '../components/sections/Brands/Brands'
 import OurService from '../components/sections/OurService/OurService'
-import Testimonials from '../components/sections/Testimonials/Testimonials'
 
 const HomePage = () => {
   return (
@@ -12,7 +11,6 @@ const HomePage = () => {
       <AboutUs/>
       <Brands/>
       <OurService/>
-      <Testimonials/>
     </section>
   )
 }
