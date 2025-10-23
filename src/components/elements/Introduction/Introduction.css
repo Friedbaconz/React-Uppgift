@@ -30,11 +30,13 @@
 
 
 .introduction-info-title-wrapper {
+    display: flex;
+    justify-content: start;
     font-family: var(--font-text);
-    width: 100%;
 }
 
 .introduction-info-title {
+    text-align: start;
     font-size: 52px;
     font-weight: bold;
     color: var(--secondary-color);
@@ -44,13 +46,18 @@
 
 
 .introduction-info-text-wrapper {
+    display: flex;
+    position: relative;
+    justify-content: start;
     font-family: var(--font-text);
     height: 100%;
+    width: 90%;
 }
 
 .introduction-info-text {
     margin: auto;
-    width: 60%;
+    text-align: start;
     font-size: 16px;
     color: var(--secondary-color);
+    width: 80%;
 }
