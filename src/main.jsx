@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import HomePage from './pages/HomePage'
 import NotFound from './pages/NotFound'
 import Header from './components/sections/Header/Header'
+import Footer from './components/sections/Footer/Footer'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -21,7 +22,7 @@ createRoot(document.getElementById('root')).render(
         </Routes>
       </main>
 
-      <footer />
+      <Footer/>
 
     </div>
   </BrowserRouter>
