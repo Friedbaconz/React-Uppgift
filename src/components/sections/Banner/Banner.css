@@ -1,0 +1,29 @@
+.banner-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: var(--secondary-color);
+}
+
+.banner-wrapper {
+    display: block;
+    margin: auto;
+    width: auto;
+    width: 70%;
+    font-family: var(--font-text);
+    color: var(--primary-color);
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.banner-title {
+    font-size: 80px;
+    margin: auto;
+    font-weight: bold;
+}
+
+.banner-text {
+    width: 50%;
+    font-size: 16px;
+}
