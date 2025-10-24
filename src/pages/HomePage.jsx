@@ -7,6 +7,7 @@ import Testimonials from '../components/sections/Testimonials/Testimonials'
 import WhyChooseUs from '../components/sections/WhyChooseUs/WhyChooseUs'
 import PricingPlan from '../components/sections/PricingPlan/PricingPlan'
 import LookingForSecure from '../components/sections/LookingForSecure/LookingForSecure'
+import Blog from '../components/sections/Blog/Blog'
 
 const HomePage = () => {
   return (
@@ -19,6 +20,7 @@ const HomePage = () => {
       <WhyChooseUs/>
       <PricingPlan/>
       <LookingForSecure/>
+      <Blog/>
     </section>
   )
 }
