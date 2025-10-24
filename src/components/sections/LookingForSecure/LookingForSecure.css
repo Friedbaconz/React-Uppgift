@@ -1,0 +1,49 @@
+.Looking-bg {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-color);
+}
+
+.Looking-wrapper {
+    display: block;
+    width: auto;
+    margin: auto;
+    font-family: var(--font-text);
+    color: var(--primary-color);
+    margin: 100px 0px;
+    width: 60%;
+}
+
+.Looking-content {
+    display: block;
+}
+
+.Looking-title-wrapper {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.Looking-title {
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+    font-size: 52px;
+}
+
+.Looking-text-wrapper {
+    display: flex;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.Looking-text {
+    margin: auto;
+    text-align: center;
+    width: 88%;
+}
+
+.Looking-button-wrapper {
+    display: flex;
+}
