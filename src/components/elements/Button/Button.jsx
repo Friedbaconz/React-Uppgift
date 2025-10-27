@@ -1,12 +1,12 @@
 import React from 'react'
 import './Button.css'
 
-function Button({id, text}) {
+function Button({id, text, typ, val}) {
   return (
     <div className="button-wrapper">
-      <div className='button'>
-        <label htmlFor={id} className="button-text">{text}</label>
-      </div>
+      <button className='button' type={typ} id={id} value={val}>
+        <label className="button-text">{text}</label>
+      </button>
     </div>
   )
 }

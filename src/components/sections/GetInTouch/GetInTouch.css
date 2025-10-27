@@ -1,0 +1,100 @@
+.getin-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.getin-wrapper {
+    display: block;
+    margin: auto;
+    width: auto;
+    width: 68%;
+    font-family: var(--font-text);
+    color: var(--secondary-color);
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.getin-content {
+    display: flex;
+    gap: 10px;
+}
+
+.getin-intro-box {
+    margin: auto;
+}
+
+.getin-head {
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--icon-color);
+    margin: auto;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.getin-title {
+    text-align: start;
+    font-size: 50px;
+    font-weight: bold;
+    color: var(--secondary-color);
+    margin: auto;
+}
+
+.getin-screen-wrapper {
+    display: block;
+    width: 664px;
+    height: 367px;
+    background-color: lightgrey;
+}
+
+.getin-accountbox-wrapper {
+    display: block;
+    background-color: #FAF8EC;
+    padding: 40px 30px;
+    border-radius: 10px;
+}
+
+.getin-inputbar-wrapper {
+    display: block;
+}
+
+.getin-email-telephone {
+    gap: 20px;
+}
+
+.getin-input {
+    border:none;
+    border: 1px solid var(--icon-color);
+    border-radius: 5px;
+    margin: auto;
+    height: 58px;
+    color: var(--icon-color);
+    width: auto;
+    width: 100%;
+    padding: 10px 15px;
+    font-family: var(--font-text);
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.getin-input-name {
+    color: var(--secondary-color);
+}
+
+.getin-email-telephone {
+    display: flex;
+}
+
+.getin-button-wrapper {
+ margin-top: 15px;
+}
+
+#getin-comment {
+    height: 150px;
+    width: 100%;
+    padding: 10px 15px;
+    resize: none;
+}
