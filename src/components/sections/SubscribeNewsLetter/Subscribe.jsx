@@ -1,8 +1,21 @@
 import React from 'react'
 import './Subscribe.css'
 import Button from '../../elements/Button/Button'
+import { useState } from 'react'
 
 function Subscribe() {
+    const [subscribe, setSubscribe] = useState("")
+
+
+    const subscribeSumbit = ('submit', e =>{
+        e.preventDefault();
+        const subemail = (subscribe)
+        const usersub = {
+            subemail,
+        }
+        console.log(usersub);
+    })
+
     return (
         <section>
             <div className="subscribe-bg">
@@ -16,14 +29,14 @@ function Subscribe() {
                               <p className="subscribe-text">Subscribe to our newsletter to receive early discount offers, updates and info</p>  
                             </div>
                         </div>
-                        <div className="subscribe-email-wrapper">
+                        <form className="subscribe-email-wrapper" onSubmit={subscribeSumbit}>
                             <div className="subscribe-emailbar-wrapper">
-                                <input class="subscribe-email-input" type="email" name="email" placeholder="Enter your email" required></input>
+                                <input class="subscribe-email-input" type="email" name="email" placeholder="Enter your email" required value={subscribe} onChange={(e) => setSubscribe(e.target.value)}/>
                             </div>
                             <div className="subscribe-button">
-                                <Button text="Submit" />
+                                <Button id="subscribe-btn" text="Submit" typ="submit" val="Submit" />
                             </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>
