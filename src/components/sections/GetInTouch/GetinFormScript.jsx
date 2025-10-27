@@ -66,9 +66,6 @@ function GetinFormScript() {
             <div className="getin-button-wrapper">
                 <Button id="getin-form-btn" text="Submit" typ="submit" val="Submit" />
             </div>
-            <script>
-                const form = document.query
-            </script>
         </form>
     )
 }
