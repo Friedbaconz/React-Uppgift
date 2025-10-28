@@ -51,22 +51,22 @@ function FindUs() {
                                     <p className="findus-ourmedia">Our Social Media</p>
                                 </div>
                                 <div className="findus-divider"></div>
-                                <div className="findus-socialmedia-icon-wrapper">
-                                    <div class="findus-links">
-                                        <div class="findus-icons">
-                                            <img src="./Facebook.svg" alt="" class="findus-img-icon" />
-                                        </div>
-                                        <div class="findus-icons">
-                                            <img src="./X.svg" alt="" class="findus-img-icon" />
-                                        </div>
-                                        <div class="findus-icons">
-                                            <img src="./Instagram.svg" alt="" class="findus-img-icon" />
-                                        </div>
-                                        <div class="findus-icons">
-                                            <img src="./Youtube.svg" alt="" class="findus-img-icon" />
-                                        </div>
+
+                                <div class="findus-links">
+                                    <div class="findus-icons">
+                                        <img src="./Facebook.svg" alt="" class="findus-img-icon" />
+                                    </div>
+                                    <div class="findus-icons">
+                                        <img src="./X.svg" alt="" class="findus-img-icon" />
+                                    </div>
+                                    <div class="findus-icons">
+                                        <img src="./Instagram.svg" alt="" class="findus-img-icon" />
+                                    </div>
+                                    <div class="findus-icons">
+                                        <img src="./Youtube.svg" alt="" class="findus-img-icon" />
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                     </div>
