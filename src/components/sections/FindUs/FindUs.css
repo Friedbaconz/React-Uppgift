@@ -1,0 +1,130 @@
+.findus-bg {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--secondary-color);
+}
+
+.findus-wrapper {
+    display: block;
+    margin: auto;
+    height: 100%;
+    width: 70%;
+    font-family: var(--font-text);
+    color: var(--secondary-color);
+}
+
+.findus-content {
+    display: flex;
+}
+
+.findus-img-wrapper {
+    display: flex;
+    align-items: baseline;
+}
+
+.findus-img {
+    margin: auto;
+    margin-top: 100px;
+}
+
+
+.findus-info-wrapper {
+    background-color: rgba(241, 255, 234, 0.56);
+    padding: 30px 40px 30px 40px;
+    width:50%;
+    margin-left: 100px;
+}
+
+.findus-title {
+    font-size: 52px;
+    font-weight: bold;
+    margin: auto;
+}
+
+.findus-text {
+    width: 85%;
+}
+
+.findus-listitem {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.findus-icon-wrapper {
+    display: block;
+    gap: 20px;
+}
+
+.findus-listicon {
+    display: flex;
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    background-color: var(--secondary-color);
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.findus-listimg {
+    position: absolute;
+    margin: auto;
+}
+
+.findus-listtext-wrapper {
+    display: block;
+    margin-left: 10px;
+}
+
+.findus-listtitle {
+    margin: auto;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.findus-listtext {
+    margin: auto;
+    font-weight: 500;
+}
+
+
+.findus-social-wrapper {
+    display: flex;
+}
+
+.findus-ourmedia-wrapper {
+    display: flex;
+}
+.findus-ourmedia {
+    margin: auto;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.findus-divider {
+    width: 175px;
+    height: 2px;
+    background-color: var(--secondary-color);
+    margin: auto 20px;
+}
+
+.findus-links {
+    display: flex;
+    gap: 20px;
+}
+
+.findus-icons {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-color: var(--icon-color);
+    border-radius: 25px;
+    cursor: pointer;
+    &:hover{
+        background-color: var(--primary-color);
+    }
+    .findus-img-icon {
+        margin: auto;
+    }
+}
