@@ -9,6 +9,7 @@ import Subscribe from './components/sections/SubscribeNewsLetter/Subscribe'
 import ContactUsPage from './pages/ContactUsPage'
 import AboutUsPage from './pages/AboutUsPage'
 import HomePage from './pages/HomePage'
+import ServicePage from './pages/ServicePage'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -23,6 +24,7 @@ createRoot(document.getElementById('root')).render(
           <Route path="/" element={<HomePage />} />
           <Route path="/ContactUsPage" element={<ContactUsPage/>} />
           <Route path="/AboutUsPage" element={<AboutUsPage/>} />
+          <Route path="/ServicePage" element={<ServicePage/>} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Subscribe/>
