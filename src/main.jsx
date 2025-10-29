@@ -7,6 +7,7 @@ import Header from './components/sections/Header/Header'
 import Footer from './components/sections/Footer/Footer'
 import Subscribe from './components/sections/SubscribeNewsLetter/Subscribe'
 import ContactUsPage from './pages/ContactUsPage'
+import AboutUsPage from './pages/AboutUsPage'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -18,7 +19,7 @@ createRoot(document.getElementById('root')).render(
         
       <main>
         <Routes>
-          <Route path="/" element={<ContactUsPage />} />
+          <Route path="/" element={<ContactUsPage/>} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Subscribe/>
