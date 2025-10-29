@@ -8,7 +8,7 @@ function Accordian({ active, isopen, description,title,id }) {
     return (
         
             <div id={id} className="acord-wrapper">
-                <div className={`acord-wrapper-inner ${active && 'active'}`} onClick={isopen}>
+                <div className={`acord-wrapper-inner ${active && 'isactive'}`} onClick={isopen}>
                     <div className="acord-title-wrapper">
                         <p className="acord-title">{title}</p>
                     </div>

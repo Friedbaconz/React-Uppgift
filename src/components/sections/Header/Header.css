@@ -102,7 +102,6 @@
     padding: 10px 50px;
     .Menu-selection {
         display: flex;
-        color: var(--secondary-color);
         gap:50px;
         margin: auto;
         text-align: center;
@@ -110,10 +109,20 @@
     }
 }
 
-.navbar-text {
+nav > a {
+    color: var(--secondary-color);
     cursor: pointer;
     font-weight: bold;
     &:hover {
+        background-color: var(--primary-color);
         color: var(--icon-color);
     }
+    
+}
+
+.active {
+    color: var(--icon-color);
+    cursor: pointer;
+    font-weight: bold;
+    background-color: var(--primary-color);
 }

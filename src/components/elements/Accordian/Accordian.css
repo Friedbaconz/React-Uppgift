@@ -30,7 +30,7 @@
     
 }
 
-.active {
+.isactive {
 
     background-color: var(--icon-color);
     color: var(--primary-color);

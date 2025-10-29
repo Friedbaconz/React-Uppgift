@@ -1,6 +1,7 @@
 import React from 'react'
 import './Header.css'
 import Button from '../../elements/Button/Button'
+import { NavLink } from 'react-router-dom'
 
 const Header = () => {
     return (
@@ -37,12 +38,12 @@ const Header = () => {
                         </div>
                         <div class="navbar-downer">
                                 <img src="./Logo.svg" alt="" class="navbar-image"/>
-                                <div class="Menu-selection">
-                                    <p class="navbar-text">Home</p>
-                                    <p class="navbar-text">About Us</p>
-                                    <p class="navbar-text">Services</p>
-                                    <p class="navbar-text">Contact Us</p>
-                                </div>
+                                <nav class="Menu-selection">
+                                    <NavLink to="/">Home</NavLink>
+                                    <NavLink to="/AboutUsPage">About Us</NavLink>
+                                    <NavLink to="/ServicePage">Services</NavLink>
+                                    <NavLink to="/ContactUsPage">Contact Us</NavLink>
+                                </nav>
                                 <div class="navbar-button-box">
                                   <Button id="navbar-button" text="Book Now" />
                                 </div>
