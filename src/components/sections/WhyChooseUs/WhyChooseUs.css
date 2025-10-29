@@ -6,6 +6,10 @@
     background-color: #FAF8EC;
 }
 
+#whyus-white {
+    background-color: var(--primary-color);
+}
+
 .whyus-wrapper {
     display: flex;
     width: 75%;

@@ -3,6 +3,7 @@ import Banner from '../components/sections/Banner/Banner'
 import GetInTouch from '../components/sections/GetInTouch/GetInTouch'
 import FindUs from '../components/sections/FindUs/FindUs'
 import FAQs from '../components/sections/FAQs/FAQs'
+import WhyChooseUs from '../components/sections/WhyChooseUs/WhyChooseUs'
 
 function ContactUsPage() {
   return (

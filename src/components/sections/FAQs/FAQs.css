@@ -12,6 +12,8 @@
     width: 70%;
     font-family: var(--font-text);
     color: var(--secondary-color);
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .faq-content {
@@ -20,12 +22,19 @@
 
 .faq-intro-wrapper {
     display: block;
+    width: 100%;
+    margin-right: 50px;
+}
+
+.Faq-text-box {
+    display: block;
 }
 
 .faq-intro-header {
     color: var(--icon-color);
     font-size: 25px;
     font-weight: bold;
+    margin: auto;
 }
 
 .faq-intro-title {
@@ -40,5 +49,5 @@
 
 .faq-accordian-wrapper {
     display: block;
-    margin-left: 40px;
+    width: 100%;
 }

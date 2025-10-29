@@ -1,0 +1,72 @@
+.acord-wrapper {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.acord-text-wrapper {
+    display: flex;
+    padding: 40px;
+}
+
+
+.acord-wrapper-inner {
+    display: flex;
+    margin: auto;
+    font-family: var(--font-text);
+    color: var(--secondary-color);
+    background-color: #ECECEC;
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: var(--icon-color);
+        color: var(--primary-color);
+        #acord-icon-arrow {
+            color: var(--primary-color);
+        }
+    }
+    
+}
+
+.active {
+
+    background-color: var(--icon-color);
+    color: var(--primary-color);
+    #acord-icon-arrow-down {
+        display: block;
+    }
+    #acord-icon-arrow {
+        display: none;
+    }
+}
+
+.acord-title-wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.acord-title {
+    margin: auto;
+    width: 100%;
+    font-weight: bold;
+}
+
+.acord-icon-wrapper {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+#acord-icon-arrow {
+    display: block;
+    
+}
+
+#acord-icon-arrow-down {
+    display: none;
+    margin: auto;
+    position: absolute;
+    color: var(--primary-color);
+}

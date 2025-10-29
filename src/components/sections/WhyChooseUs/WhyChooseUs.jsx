@@ -2,10 +2,10 @@ import React from 'react'
 import './WhyChooseUs.css'
 import Introduction from '../../elements/Introduction/Introduction'
 
-function WhyChooseUs() {
+function WhyChooseUs({bg}) {
     return (
         <section>
-            <div className="whyus-bg">
+            <div className="whyus-bg" id={bg}>
                 <div className="whyus-wrapper">
                     <div className="whyus-content">
                         <div className="whyus-introduction-wrapper">
