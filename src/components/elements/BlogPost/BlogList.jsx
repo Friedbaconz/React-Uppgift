@@ -6,7 +6,7 @@ import { useEffect } from 'react';
 import { useState } from 'react'
 
 function BlogList() {
-    const [blogs, setblogs] = useState([])
+    const [blogs, setblogs] = useState([0])
     
     useEffect(() => {
         axios.get('https://win25-jsf-assignment.azurewebsites.net/api/blogs')
@@ -35,9 +35,9 @@ function BlogList() {
         {blogs.map(blogs =>
             (
                     
-                <div className="blog-container">
-                    <BlogPost key={blogs.id} description={blogs.description} imageUrl={blogs.imageUrl} created={blogs.created} title={blogs.title}/>
-                </div>
+                
+                <BlogPost key={blogs.id} description={blogs.description} imageUrl={blogs.imageUrl} created={blogs.created} title={blogs.title}/>
+                
             )
         )}
     </div>

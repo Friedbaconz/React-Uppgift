@@ -6,10 +6,10 @@ function BlogPost({created,title,imageUrl,description}) {
     <div className="blogpost-bg">
         <div className="blogpost-wrapper">
             <div className="blogpost-screen">
-                <img className="blogpost-img" src={imageUrl} alt="..." />
+                <img className="blogpost-img" src={imageUrl} />
             </div>
             <div className="blogpost-date-wrapper">
-                <img className="blogpost-date-icon" src="./Date.svg" alt="" />
+                <img className="blogpost-date-icon" src="./Date.svg"/>
                 <p className="blogpost-date">{created}</p>
             </div>
             <div className="blogpost-text-wrapper">

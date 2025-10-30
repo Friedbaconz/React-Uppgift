@@ -7,7 +7,7 @@ import { data } from 'react-router-dom'
 
 function Accordianlist() {
     const [Index, setIndex] = useState(0)
-    const [items, setitems] = useState([])
+    const [items, setitems] = useState([0])
 
 
 
@@ -36,9 +36,9 @@ function Accordianlist() {
             {items.map(items =>
                 (
                     
-                    <div>
-                        <Accordian key={items.id} title={items.title} description={items.description} active={Index === items.id} isopen={() => setIndex(items.id)} />
-                    </div>
+                    
+                    <Accordian key={items.id} title={items.title} description={items.description} active={Index === items.id} isopen={() => setIndex(items.id)} />
+                    
                 )
             )}
 
