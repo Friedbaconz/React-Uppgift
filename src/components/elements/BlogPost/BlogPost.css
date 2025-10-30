@@ -16,9 +16,10 @@
 }
 
 .blogpost-screen {
+    display: flex;
     background-color: lightgrey;
-    min-height: 254px;
-    min-width: 380px;
+    min-height: 252px;
+    min-width: 379px;
     border-radius: 5px;
     margin-bottom: 10px;
 }
@@ -43,20 +44,26 @@
 
 .blogpost-text-box {
     display: flex;
+    margin: auto;
     justify-content: start;
     align-items: start;
     text-align: start;
+    height: 100px;
+    background-color: var(--secondary-color);
+    overflow: scroll;
+    padding: 2px;
 }
 
 .blogpost-title {
     font-weight: bold;
     font-size: 20px;
-    margin: auto 0px
+    margin: auto;
 }
 
 .blogpost-text {
-    display: flex;
-    text-align: start;
+    margin: auto;
+    display: block;
+    text-overflow: ellipsis;
 }
 
 .blogpost-readmore-wrapper {
@@ -66,6 +73,7 @@
 .blogpost-readmore {
     display: flex;
     color: var(--icon-color);
+    margin-top: 15px;
     &:hover {
         color: var(--primary-color);
     }
@@ -78,4 +86,16 @@
 #blogpost-arrow {
     margin: auto;
     margin-left: 10px;
+}
+
+.blog-container {
+    display: flex;
+    gap: 20px;
+}
+
+.blogpost-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
 }

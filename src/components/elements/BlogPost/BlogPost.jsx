@@ -1,23 +1,23 @@
 import React from 'react'
 import './BlogPost.css'
 
-function BlogPost() {
+function BlogPost({created,title,imageUrl,description}) {
   return (
     <div className="blogpost-bg">
         <div className="blogpost-wrapper">
             <div className="blogpost-screen">
-                <img className="blogpost-img" src="" alt="" />
+                <img className="blogpost-img" src={imageUrl} alt="..." />
             </div>
             <div className="blogpost-date-wrapper">
                 <img className="blogpost-date-icon" src="./Date.svg" alt="" />
-                <p className="blogpost-date">Date</p>
+                <p className="blogpost-date">{created}</p>
             </div>
             <div className="blogpost-text-wrapper">
                 <div className="blogpost-text-box">
-                    <p className="blogpost-title">Title</p>
+                    <p className="blogpost-title">{title}</p>
                 </div>
                 <div className="blogpost-text-box">
-                    <p className="blogpost-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a sem magna. Etiam ac odio sit amet lorem…</p>
+                    <p className="blogpost-text">{description}</p>
                 </div>
             </div>
             <div className="blogpost-readmore-wrapper">

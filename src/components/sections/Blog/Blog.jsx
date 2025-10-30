@@ -2,6 +2,7 @@ import React from 'react'
 import './Blog.css'
 import Introduction from '../../elements/Introduction/Introduction'
 import BlogPost from '../../elements/BlogPost/BlogPost'
+import BlogList from '../../elements/BlogPost/BlogList'
 
 function Blog() {
   return (
@@ -13,9 +14,7 @@ function Blog() {
                         <Introduction header="Latest Blog and News" title="Check Out Our Latest Blog and News Update" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie nisl sed dui lacinia gravida. Nulla quis nulla leo. Mauris ac blandit nisi non sodales augue. Phasellus eget elit gravida."/>
                     </div>
                     <div className="blog-post-wrapper">
-                        <BlogPost/>
-                        <BlogPost/>  
-                        <BlogPost/>  
+                        <BlogList/>
                     </div>
                 </div>
             </div>
