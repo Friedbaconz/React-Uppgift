@@ -3,14 +3,14 @@ import './Brands.css'
 
 function Brands() {
   return (
-    <section class="brands">
-        <div class="brands-bg">
-            <div class="brands-wrapper">
-                <a class="brands-logo-link" href="..."><img class="brands-logo" src="./Logoipsum1.svg" alt="" /></a>
-                <a class="brands-logo-link" href="..."><img class="brands-logo" src="./Logoipsum2.svg" alt="" /></a>
-                <a class="brands-logo-link" href="..."><img class="brands-logo" src="./Logoipsum3.svg" alt="" /></a>
-                <a class="brands-logo-link" href="..."><img class="brands-logo" src="./Logoipsum4.svg" alt="" /></a>
-                <a class="brands-logo-link" href="..."><img class="brands-logo" src="./Logoipsum5.svg" alt="" /></a>
+    <section className="brands">
+        <div className="brands-bg">
+            <div className="brands-wrapper">
+                <a className="brands-logo-link" href="..."><img className="brands-logo" src="./Logoipsum1.svg" alt="" /></a>
+                <a className="brands-logo-link" href="..."><img className="brands-logo" src="./Logoipsum2.svg" alt="" /></a>
+                <a className="brands-logo-link" href="..."><img className="brands-logo" src="./Logoipsum3.svg" alt="" /></a>
+                <a className="brands-logo-link" href="..."><img className="brands-logo" src="./Logoipsum4.svg" alt="" /></a>
+                <a className="brands-logo-link" href="..."><img className="brands-logo" src="./Logoipsum5.svg" alt="" /></a>
             </div>
         </div>
     </section>

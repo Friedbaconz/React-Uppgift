@@ -23,7 +23,7 @@ function BlogPost({created,title,imageUrl,description}) {
             <div className="blogpost-readmore-wrapper">
                 <a href="..." className="blogpost-readmore">
                     <p className="blogpost-readmore-text">Read more</p>
-                    <i class="bi bi-arrow-right" id="blogpost-arrow"></i>
+                    <i className="bi bi-arrow-right" id="blogpost-arrow"></i>
                 </a>
             </div>
         </div>

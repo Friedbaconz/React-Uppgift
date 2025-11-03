@@ -28,23 +28,23 @@ function PricingUnit({price, name }) {
                 <div className='unit-splitter'></div>
                 <div className='unit-list-wrapper'>
                     <div className='unit-list'>
-                        <i class="bi bi-check-circle-fill" id="unit-icon"></i>
+                        <i className="bi bi-check-circle-fill" id="unit-icon"></i>
                         <p className='unit-plan'>Nam nec ipsum in dolor</p>
                     </div>
                     <div className='unit-list'>
-                        <i class="bi bi-check-circle-fill" id="unit-icon"></i>
+                        <i className="bi bi-check-circle-fill" id="unit-icon"></i>
                         <p className='unit-plan'>Fusce nec ligula ut arcu</p>
                     </div>
                     <div className='unit-list'>
-                        <i class="bi bi-check-circle-fill" id="unit-icon"></i>
+                        <i className="bi bi-check-circle-fill" id="unit-icon"></i>
                         <p className='unit-plan'>Aliquam pulvinar arcu in</p>
                     </div>
                     <div className='unit-list'>
-                        <i class="bi bi-check-circle-fill" id="unit-icon"></i>
+                        <i className="bi bi-check-circle-fill" id="unit-icon"></i>
                         <p className='unit-plan'>Duis gravida enim porta</p>
                     </div>
                     <div className='unit-list'>
-                        <i class="bi bi-check-circle-fill" id="unit-icon"></i>
+                        <i className="bi bi-check-circle-fill" id="unit-icon"></i>
                         <p className='unit-plan'>Etiam eget libero non ligula</p>
                     </div>
                 </div>

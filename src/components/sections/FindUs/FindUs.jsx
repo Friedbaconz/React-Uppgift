@@ -52,18 +52,18 @@ function FindUs() {
                                 </div>
                                 <div className="findus-divider"></div>
 
-                                <div class="findus-links">
-                                    <div class="findus-icons">
-                                        <img src="./Facebook.svg" alt="" class="findus-img-icon" />
+                                <div className="findus-links">
+                                    <div className="findus-icons">
+                                        <img src="./Facebook.svg" alt="" className="findus-img-icon" />
                                     </div>
-                                    <div class="findus-icons">
-                                        <img src="./X.svg" alt="" class="findus-img-icon" />
+                                    <div className="findus-icons">
+                                        <img src="./X.svg" alt="" className="findus-img-icon" />
                                     </div>
-                                    <div class="findus-icons">
-                                        <img src="./Instagram.svg" alt="" class="findus-img-icon" />
+                                    <div className="findus-icons">
+                                        <img src="./Instagram.svg" alt="" className="findus-img-icon" />
                                     </div>
-                                    <div class="findus-icons">
-                                        <img src="./Youtube.svg" alt="" class="findus-img-icon" />
+                                    <div className="findus-icons">
+                                        <img src="./Youtube.svg" alt="" className="findus-img-icon" />
                                     </div>
                                 </div>
 

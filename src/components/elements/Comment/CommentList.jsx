@@ -6,7 +6,7 @@ import Comment from './Comment'
 import { useState } from 'react'
 
 function CommentList() {
-    const [testimonails, settestimonails] = useState([0])
+    const [testimonails, settestimonails] = useState([])
     
     useEffect(() => {
         axios.get('https://win25-jsf-assignment.azurewebsites.net/api/testimonials')
@@ -29,7 +29,8 @@ function CommentList() {
 
   return (
     <div className='testimon-comment-wrapper'>
-        {testimonails.map(testimonails =>
+
+        {testimonails.map((testimonails) =>
             (
                     
                 

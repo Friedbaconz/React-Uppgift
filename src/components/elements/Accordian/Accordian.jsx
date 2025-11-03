@@ -13,8 +13,8 @@ function Accordian({ active, isopen, description,title,id }) {
                         <p className="acord-title">{title}</p>
                     </div>
                     <div className="acord-icon-wrapper">
-                        <i class="bi bi-chevron-down" id="acord-icon-arrow"></i>
-                        <i class="bi bi-chevron-up" id="acord-icon-arrow-down"></i>
+                        <i className="bi bi-chevron-down" id="acord-icon-arrow"></i>
+                        <i className="bi bi-chevron-up" id="acord-icon-arrow-down"></i>
                     </div>
                 </div>
 

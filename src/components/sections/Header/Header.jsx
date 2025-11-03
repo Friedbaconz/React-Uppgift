@@ -7,44 +7,44 @@ const Header = () => {
     return (
         <header>
             
-            <div class="Navbar">
-                <div class="bg-navbar">
-                    <div class="navbar-wrapper">
-                        <div class="navbar-upper">
-                            <div class="domain">
-                                <div class="telephone">
-                                        <i class="bi bi-telephone-fill" id="icon-img"></i>
+            <div className="Navbar">
+                <div className="bg-navbar">
+                    <div className="navbar-wrapper">
+                        <div className="navbar-upper">
+                            <div className="domain">
+                                <div className="telephone">
+                                        <i className="bi bi-telephone-fill" id="icon-img"></i>
                                         <p>+46 8 123 122 44</p>
                                 </div>
-                                <div class="email">
-                                        <i class="bi bi-envelope-open-fill" id="icon-img"></i>
+                                <div className="email">
+                                        <i className="bi bi-envelope-open-fill" id="icon-img"></i>
                                         <p>contact@domain.com</p>
                                 </div>
                             </div>
-                            <div class="navbar-links">
-                                <div class="navbar-icons">
-                                    <img src="./Facebook.svg" alt="" class="navbar-img-icon" />
+                            <div className="navbar-links">
+                                <div className="navbar-icons">
+                                    <img src="./Facebook.svg" alt="" className="navbar-img-icon" />
                                 </div>
-                                <div class="navbar-icons">
-                                    <img src="./X.svg" alt="" class="navbar-img-icon" />
+                                <div className="navbar-icons">
+                                    <img src="./X.svg" alt="" className="navbar-img-icon" />
                                 </div>
-                                <div class="navbar-icons">
-                                    <img src="./Instagram.svg" alt="" class="navbar-img-icon" />
+                                <div className="navbar-icons">
+                                    <img src="./Instagram.svg" alt="" className="navbar-img-icon" />
                                 </div>
-                                <div class="navbar-icons">
-                                    <img src="./Youtube.svg" alt="" class="navbar-img-icon" />
+                                <div className="navbar-icons">
+                                    <img src="./Youtube.svg" alt="" className="navbar-img-icon" />
                                 </div>
                             </div>
                         </div>
-                        <div class="navbar-downer">
-                                <img src="./Logo.svg" alt="" class="navbar-image"/>
-                                <nav class="Menu-selection">
+                        <div className="navbar-downer">
+                                <img src="./Logo.svg" alt="" className="navbar-image"/>
+                                <nav className="Menu-selection">
                                     <NavLink to="/">Home</NavLink>
                                     <NavLink to="/AboutUsPage">About Us</NavLink>
                                     <NavLink to="/ServicePage">Services</NavLink>
                                     <NavLink to="/ContactUsPage">Contact Us</NavLink>
                                 </nav>
-                                <div class="navbar-button-box">
+                                <div className="navbar-button-box">
                                   <Button id="navbar-button" text="Book Now" />
                                 </div>
                         </div>

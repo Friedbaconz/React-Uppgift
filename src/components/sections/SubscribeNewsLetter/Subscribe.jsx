@@ -31,7 +31,7 @@ function Subscribe() {
                         </div>
                         <form className="subscribe-email-wrapper" onSubmit={subscribeSumbit}>
                             <div className="subscribe-emailbar-wrapper">
-                                <input class="subscribe-email-input" type="email" name="email" placeholder="Enter your email" required value={subscribe} onChange={(e) => setSubscribe(e.target.value)}/>
+                                <input className="subscribe-email-input" type="email" name="email" placeholder="Enter your email" required value={subscribe} onChange={(e) => setSubscribe(e.target.value)}/>
                             </div>
                             <div className="subscribe-button">
                                 <Button id="subscribe-btn" text="Submit" typ="submit" val="Submit" />
