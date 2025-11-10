@@ -10,6 +10,7 @@ import ContactUsPage from './pages/ContactUsPage'
 import AboutUsPage from './pages/AboutUsPage'
 import HomePage from './pages/HomePage'
 import ServicePage from './pages/ServicePage'
+import BookingPage from './pages/BookingPage'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -25,6 +26,7 @@ createRoot(document.getElementById('root')).render(
           <Route path="/ContactUsPage" element={<ContactUsPage/>} />
           <Route path="/AboutUsPage" element={<AboutUsPage/>} />
           <Route path="/ServicePage" element={<ServicePage/>} />
+          <Route path="/BookingPage" element={<BookingPage/>} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Subscribe/>

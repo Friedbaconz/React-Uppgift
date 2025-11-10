@@ -3,6 +3,7 @@ import Banner from '../components/sections/Banner/Banner'
 import OurService from '../components/sections/OurService/OurService'
 import Testimonials from '../components/sections/Testimonials/Testimonials'
 import FAQs from '../components/sections/FAQs/FAQs'
+import LookingForSecure from '../components/sections/LookingForSecure/LookingForSecure'
 
 function ServicePage() {
   return (
@@ -11,6 +12,7 @@ function ServicePage() {
         <OurService/>
         <Testimonials/>
         <FAQs/>
+        <LookingForSecure/>
     </section>
   )
 }

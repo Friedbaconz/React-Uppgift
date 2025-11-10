@@ -43,6 +43,7 @@ const Header = () => {
                                     <NavLink to="/AboutUsPage">About Us</NavLink>
                                     <NavLink to="/ServicePage">Services</NavLink>
                                     <NavLink to="/ContactUsPage">Contact Us</NavLink>
+                                    <NavLink to="/BookingPage">Booking</NavLink>
                                 </nav>
                                 <div className="navbar-button-box">
                                   <Button id="navbar-button" text="Book Now" />
