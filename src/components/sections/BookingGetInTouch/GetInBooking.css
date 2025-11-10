@@ -1,11 +1,11 @@
-.getin-bg {
+.booking-bg {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
 }
 
-.getin-wrapper {
+.booking-wrapper {
     display: block;
     margin: auto;
     width: auto;
@@ -16,16 +16,22 @@
     margin-bottom: 100px;
 }
 
-.getin-content {
+.booking-intro-wrapper {
+    width: 54%;
+}
+
+.booking-content {
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
-.getin-intro-box {
+.booking-intro-box {
     margin: auto;
+    margin-bottom: 20px;
+    overflow: hidden;
 }
 
-.getin-head {
+.booking-head {
     font-size: 25px;
     font-weight: bold;
     color: var(--icon-color);
@@ -34,38 +40,49 @@
     margin-bottom: 20px;
 }
 
-.getin-title {
+.booking-title {
+    text-overflow: clip;
     text-align: start;
     font-size: 50px;
     font-weight: bold;
     color: var(--secondary-color);
     margin: auto;
+    text-overflow: clip;
 }
 
-.getin-screen-wrapper {
+.booking-rightside-wrapper {
+    display: flex;
+    align-items: last baseline;
+}
+
+.booking-rightside-wrapper {
+    width: 100%;
+}
+
+.booking-screen-wrapper {
     display: block;
-    width: 664px;
-    height: 367px;
+    width: 673px;
+    height: 545px;
     background-color: lightgray;
     border: 3px solid rgb(240, 239, 239);
 }
 
-.getin-accountbox-wrapper {
+.booking-accountbox-wrapper {
     display: block;
     background-color: #FAF8EC;
     padding: 40px 30px;
     border-radius: 10px;
 }
 
-.getin-inputbar-wrapper {
+.booking-inputbar-wrapper {
     display: block;
 }
 
-.getin-email-telephone {
+.booking-email-telephone {
     gap: 20px;
 }
 
-.getin-input {
+.booking-input {
     border:none;
     border: 1px solid var(--icon-color);
     border-radius: 5px;
@@ -81,25 +98,36 @@
     margin-bottom: 10px;
 }
 
-.getin-input-name {
+.booking-input-name {
     color: var(--secondary-color);
 }
 
-.getin-email-telephone {
+.booking-email-telephone {
     display: flex;
 }
 
-.getin-button-wrapper {
+.booking-button-wrapper {
  margin-top: 15px;
 }
 
-#getin-comment {
+#booking-comment {
     height: 150px;
     width: 100%;
     padding: 10px 15px;
     resize: none;
 }
 
-input:invalid {
-    border-color: red;
+.booking-label-wrapper {
+    display: flex;
+}
+
+.bookactive {
+border-color: red;  
+}
+
+.div-text-name {
+    display: flex;
+    margin: auto;
+    margin-left: 10px;
+    color: red;
 }
