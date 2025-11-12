@@ -6,67 +6,75 @@ import { useState } from 'react'
 
 
 function GetinFormScript() {
-    const [name, setName] = useState("");
-    const [email, setEmail] = useState("");
-    const [phone, setPhone] = useState("");
-    const [subject, setSubject] = useState("");
-    const [comment, setComment] = useState("");
-    
+    const [formData, setformData] = useState({ name: '', email: '', phoneNumber: '', subject: '', comment: '' })
+    const [submitted, setsubmitted] = useState(false)
 
-    const submit = ('submit', e => {
-        e.preventDefault();
+    const handleChange = (e) => {
+        const { name, value } = e.target
+        setformData({ ...formData, [name]: value })
+        e.preventDefault()
+    }
 
-        const username = (name)
-        const useremail = (email)
-        const userphone = (phone)
-        const usersubject = (subject)
-        const usercomment = (comment)
+    const submit = async (e) => {
+        e.preventDefault()
 
 
+        const res = await fetch('https://win25-jsf-assignment.azurewebsites.net/api/contact', {
+            method: 'post',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(formData)
+        })
 
-
-
-        const user = {
-            username,
-            useremail,
-            userphone,
-            usersubject,
-            usercomment,
+        if (res.ok) {
+            setsubmitted(true)
+            setformData({ name: '', email: '', phoneNumber: '', subject: '', comment: '' })
         }
-        console.log(user);
-        
-    })
+    }
+
+    if (submitted) {
+        return (
+            <form className='getin-fillbar-wrapper'>
+
+                <p className='booking-input-name-extra'>We have received your booking request and will respond to you within 1-2 business days.</p>
+
+            </form>
+        )
+    }
 
     return (
-    
-        <form className="getin-fillbar-wrapper" onSubmit={submit}>
-            <div className='getin-inputbar-wrapper'>
-                <label className="getin-input-name" forhtml="getinname">Your Name</label>
-                <input className="getin-input" type="text" placeholder="Your name" value={name} onChange={(e) => setName(e.target.value)} required/>
-            </div>
-            <div className="getin-email-telephone">
+        <div>
+            <form className="getin-fillbar-wrapper" onSubmit={submit}>
                 <div className='getin-inputbar-wrapper'>
-                    <label className="getin-input-name" forhtml="getin-email">Email</label>
-                    <input className="getin-input" type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} required/>
+                    <label className="getin-input-name" forhtml="getinname">Your Name</label>
+                    <input className="getin-input" type="text" name="name" placeholder="Your name" value={formData.name} onChange={handleChange} required />
+                </div>
+                <div className="getin-email-telephone">
+                    <div className='getin-inputbar-wrapper'>
+                        <label className="getin-input-name" forhtml="getin-email">Email</label>
+                        <input className="getin-input" type="email" name="email" placeholder="Email" value={formData.email} onChange={handleChange} required />
+                    </div>
+                    <div className='getin-inputbar-wrapper'>
+                        <label className="getin-input-name" forhtml="getin-phone">Telephone</label>
+                        <input className="getin-input" type="tel" name="phoneNumber" placeholder="Telephone" pattern="[0-9]{2}-[0-9]{3}-[0-9]{4}" value={formData.phoneNumber} onChange={handleChange} />
+                    </div>
                 </div>
                 <div className='getin-inputbar-wrapper'>
-                    <label className="getin-input-name" forhtml="getin-phone">Telephone</label>
-                    <input className="getin-input" type="tel" placeholder="Telephone" pattern="[0-9]{2}-[0-9]{3}-[0-9]{4}" value={phone} onChange={(e) => setPhone(e.target.value)}/>
+                    <label className="getin-input-name" forhtml="getin-subject">Subject</label>
+                    <input className="getin-input" type="text" name="subject" placeholder="How can we help you" value={formData.subject} onChange={handleChange} />
                 </div>
-            </div>
-            <div className='getin-inputbar-wrapper'>
-                <label className="getin-input-name" forhtml="getin-subject">Subject</label>
-                <input className="getin-input" type="text" placeholder="How can we help you" value={subject} onChange={(e) => setSubject(e.target.value)}/>
-            </div>
-            <div className='getin-inputbar-wrapper'>
-                <label className="getin-input-name" forhtml="getin-comment">Comments / Questions</label>
-                <textarea className="getin-input" placeholder="Comments" id="getin-comment" value={comment} onChange={(e) => setComment(e.target.value)}/>
-            </div>
+                <div className='getin-inputbar-wrapper'>
+                    <label className="getin-input-name" forhtml="getin-comment">Comments / Questions</label>
+                    <textarea className="getin-input" name="comment" placeholder="Comments" id="getin-comment" value={formData.comment} onChange={handleChange} />
+                </div>
 
-            <div className="getin-button-wrapper">
-                <Button id="getin-form-btn" text="Submit" typ="submit" val="Submit" />
-            </div>
-        </form>
+                <div className="getin-button-wrapper">
+                    <Button id="getin-form-btn" text="Submit" typ="submit" val="Submit" />
+                </div>
+            </form>
+        </div>
+
     )
 }
 

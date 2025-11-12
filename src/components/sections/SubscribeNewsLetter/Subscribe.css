@@ -75,3 +75,21 @@
 .button-wrapper {
     height: 35%;
 }
+
+.Sub-fillbar-wrapper-extra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    font-family: var(--font-text);
+    color: var(--icon-color);
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.Sub-input-name-extra {
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    font-weight: bold;
+}

@@ -13,8 +13,10 @@ function GetInTouch() {
                     <div className="getin-intro-wrapper">
                         <div className="getin-intro-box">
                             <p className='getin-head'>Get in Touch</p>
-                            <p className='getin-title'>Get Personalized Assistance</p>
-                            <p className='getin-title'>- Contact Us</p>
+                            <div>
+                              <p className='getin-title'>Get Personalized Assistance</p>
+                                <p className='getin-title'>- Contact Us</p>  
+                            </div>
                             <p className="getin-intro-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo</p>
                         </div>
                         <div className="getin-screen-wrapper">

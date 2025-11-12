@@ -18,11 +18,25 @@
 
 .getin-content {
     display: flex;
-    gap: 10px;
+    justify-content: bottom;
+    align-items:flex-end;
+    gap: 20px;
+}
+.getin-intro-wrapper {
+    margin-bottom: 40px;
+    width: 100%;
+}
+.getin-intro-text {
+    width: 100%;
+    display: flex;
 }
 
 .getin-intro-box {
     margin: auto;
+}
+
+.box-getin {
+    position: absolute;
 }
 
 .getin-head {
@@ -31,12 +45,13 @@
     color: var(--icon-color);
     margin: auto;
     width: auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .getin-title {
     text-align: start;
-    font-size: 50px;
+    font-size: 48px;
+    width: 100%;
     font-weight: bold;
     color: var(--secondary-color);
     margin: auto;
@@ -50,8 +65,13 @@
     border: 3px solid rgb(240, 239, 239);
 }
 
+
 .getin-accountbox-wrapper {
-    display: block;
+    height: 641px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #FAF8EC;
     padding: 40px 30px;
     border-radius: 10px;
