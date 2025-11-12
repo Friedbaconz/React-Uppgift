@@ -121,6 +121,13 @@
     display: flex;
 }
 
+.booking-accountbox-wrapper {
+    height: 546px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .bookactive {
 border-color: red;  
 }
@@ -130,4 +137,9 @@ border-color: red;
     margin: auto;
     margin-left: 10px;
     color: red;
+}
+
+.booking-input-name-extra {
+    text-align: center;
+    font-size: 20px;
 }
