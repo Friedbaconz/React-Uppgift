@@ -37,7 +37,12 @@ const Header = () => {
                             </div>
                         </div>
                         <div className="navbar-downer">
-                                <img src="./Logo.svg" alt="" className="navbar-image"/>
+                                
+                                    <NavLink to="/">
+                                        <img src="./Logo.svg" alt="" className="navbar-image"/>
+                                    </NavLink>   
+                                
+                                
                                 <nav className="Menu-selection">
                                     <NavLink to="/">Home</NavLink>
                                     <NavLink to="/AboutUsPage">About Us</NavLink>
